@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="cardBlue">
+          <p class="result">Your Result</p>
+          <div class="circle">
+            <span class="bigNum">76</span>
+            <span class="percent">of 100</span>
+          </div>
+          <span class="great">Great</span>
+          <p class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="rightCard">
+          <span class="summary">Summary</span>
+
+          <div class="summaryDivs">
+            <div class="divsResult reaction">
+              <div class="imgDiv">
+                <img
+                  src="./assets/images/icon-reaction.svg"
+                  alt="Reaction Logo"
+                />
+                <span>Reaction</span>
+              </div>
+              <span class="resultPercent">80 <span class="hundred">/ 100</span></span>
+            </div>
+            <div class="divsResult memory">
+              <div class="imgDiv">
+                <img src="./assets/images/icon-memory.svg" alt="Memory Logo" />
+                <span>Memory</span>
+              </div>
+              <span class="resultPercent">92 <span class="hundred">/ 100</span></span>
+            </div>
+            <div class="divsResult verbal">
+              <div class="imgDiv">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt="Verbal Logo"
+                />
+                <span>Verbal</span>
+              </div>
+              <span class="resultPercent">61 <span class="hundred">/ 100</span></span>
+            </div>
+            
+            <div class="divsResult visual">
+              <div class="imgDiv">
+                <img
+                  src="./assets/images/icon-visual.svg"
+                  alt="Visual Logo"
+                />
+                <span>Visual</span>
+              </div>
+              <span class="resultPercent">72 <span class="hundred">/ 100</span></span>
+            </div>
+          </div>
+          <div class="btn">Continue</div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Adasat">Pedro Bonilla</a>.
+    </div>
+  </body>
+</html>
